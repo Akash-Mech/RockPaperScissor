@@ -1,0 +1,91 @@
+body{
+  position: absolute;
+  left: 30%;
+  right: 25%;
+  top: 3%;
+  background-color: #350e78;
+  color: white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    text-align: center;
+    
+  }
+  
+  .weapon{
+    font-size: 80px;
+    margin-right: 20px; 
+    margin-left: 50px; 
+    margin-top: 30px;
+    margin-bottom: 60px;
+   
+  }
+  
+  .weapon-ps, .btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-radius:50%; 
+    padding: 20px;
+  }
+  
+  
+  #paper{
+    border: 4px solid blue;
+  }
+  
+  #scissor{
+    border: 4px solid red;
+  }
+  
+  #rock{
+    border: 4px solid yellow;
+  }
+
+
+  @media(min-width:768px){
+    body{
+      position: absolute;
+      left: 25%;
+      right: 5%;
+      top: 3%;
+      background-color: #350e78;
+      color: white;
+    }
+   
+    .weapon-ps{
+      margin-right: 40px;
+    }
+    .weapon-r{
+      margin-left: 87px;
+    }
+  }
+
+  @media(min-width:425px){
+ 
+  .weapon-r{
+    margin-left: 30px;
+    
+  }
+  .weapon-ps{
+    margin-right: 25px;
+  }
+  }
+  
+  @media(min-width:320px){
+ 
+  .weapon-r{
+    margin-right: 7px;
+  }
+  .weapon-ps{
+    margin-left: 25px;
+  }
+  
+} 
+  
+  
+  
+  
+  
